@@ -11,7 +11,7 @@ import type {
 } from "./types";
 
 const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8081/api";
+  process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://16.171.41.13:8081/api";
 
 export class ApiError extends Error {
   status: number;
